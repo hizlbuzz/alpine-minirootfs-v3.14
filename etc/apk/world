@@ -1,6 +1,12 @@
 alpine-baselayout
 alpine-keys
 apk-tools
+boost1.75-filesystem
+boost1.75-log
+boost1.75-log_setup
+boost1.75-program_options
+boost1.75-system
+boost1.75-thread
 busybox
 libc-utils
 openrc
