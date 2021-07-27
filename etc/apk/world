@@ -3,3 +3,4 @@ alpine-keys
 apk-tools
 busybox
 libc-utils
+openrc
