@@ -10,4 +10,6 @@ boost1.75-system
 boost1.75-thread
 busybox
 libc-utils
+mosquitto-clients
+mosquitto-dev
 openrc

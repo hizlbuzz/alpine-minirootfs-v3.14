@@ -41491,3 +41491,164 @@ Z:Q1JyCs1uhmmeXOaycb1Dcv/SDQWLM=
 R:libboost_wserialization-variant-static.cmake
 Z:Q18aLjoKxa37Fn0wdVJUhtbvNbBIQ=
 
+C:Q12DAsfqxm8ZfAPk+P+Pgs8VtrWOs=
+P:c-ares
+V:1.17.1-r1
+A:armv7
+S:34536
+I:65536
+T:An asynchronously DNS/names resolver library
+U:https://c-ares.haxx.se/
+L:MIT
+o:c-ares
+m:Carlo Landmeter <clandmeter@alpinelinux.org>
+t:1610489771
+c:1118fff73bb8f3a967c12d42de2d8c4a0a7ed162
+D:so:libc.musl-armv7.so.1
+p:so:libcares.so.2=2.4.2
+F:usr
+F:usr/lib
+R:libcares.so.2
+a:0:0:777
+Z:Q1PbqWQ+UfQ35CGcUJRIoQsTW8yec=
+R:libcares.so.2.4.2
+a:0:0:755
+Z:Q1F+E950I+QjSBTqZg8Grm+Ok+9cw=
+
+C:Q1lWBBEEVHxF9EA/TARmjth9URKyE=
+P:mosquitto-libs
+V:2.0.11-r0
+A:armv7
+S:35834
+I:77824
+T:An open source MQTT broker (libraries)
+U:https://mosquitto.org/
+L:EPL-1.0
+o:mosquitto
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1623269094
+c:bace8c5bc774203145b3377ae5738ac1dc1216fc
+D:so:libc.musl-armv7.so.1 so:libcares.so.2 so:libcrypto.so.1.1 so:libssl.so.1.1
+p:so:libmosquitto.so.1=1
+r:mosquitto-utils
+F:usr
+F:usr/lib
+R:libmosquitto.so.1
+a:0:0:755
+Z:Q1/xyW/jTowEx2rv4TpZy64nG5IWk=
+
+C:Q1PCnphrvQGwYCrL0bv/AfoKLsExo=
+P:mosquitto-libs++
+V:2.0.11-r0
+A:armv7
+S:5809
+I:28672
+T:C++ wrapper for libmosquitto
+U:https://mosquitto.org/
+L:EPL-1.0
+o:mosquitto
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1623269094
+c:bace8c5bc774203145b3377ae5738ac1dc1216fc
+D:so:libgcc_s.so.1 so:libmosquitto.so.1 so:libstdc++.so.6
+p:so:libmosquittopp.so.1=1
+F:usr
+F:usr/lib
+R:libmosquittopp.so.1
+a:0:0:755
+Z:Q1Zb1JizxJe3j8msLx/hP1opb6drY=
+
+C:Q1/vlLMFVW79HrMFjObeW6bIXrvXc=
+P:mosquitto-dev
+V:2.0.11-r0
+A:armv7
+S:32590
+I:208896
+T:An open source MQTT broker (development files)
+U:https://mosquitto.org/
+L:EPL-1.0
+o:mosquitto
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1623269094
+c:bace8c5bc774203145b3377ae5738ac1dc1216fc
+D:mosquitto-libs++=2.0.11-r0 mosquitto-libs=2.0.11-r0 pkgconfig
+p:pc:libmosquitto=2.0.11 pc:libmosquittopp=2.0.11
+r:mosquitto-utils
+F:usr
+F:usr/include
+R:mosquitto.h
+a:0:0:755
+Z:Q1H0hcfwpImpSdUGkKMhSzj4RCEmQ=
+R:mosquitto_broker.h
+a:0:0:755
+Z:Q19nW8Dd8bz85GNkDYCqGwxyvOuRM=
+R:mosquitto_plugin.h
+a:0:0:755
+Z:Q17pGN8TU+WX7UZisHdCLq2oQbkf8=
+R:mosquittopp.h
+a:0:0:755
+Z:Q12hwBjvwxO4uyge3cXEJ+B2PFb4w=
+R:mqtt_protocol.h
+a:0:0:755
+Z:Q1YlFLiu/pjiS0OwilvJmHkrwCktc=
+F:usr/lib
+R:libmosquitto.so
+a:0:0:777
+Z:Q1AOfY3JqSEG/nsULTB25MOinkU7M=
+R:libmosquittopp.so
+a:0:0:777
+Z:Q1nVsP5YXrHybRwkdLv9chyzhOnnE=
+F:usr/lib/pkgconfig
+R:libmosquitto.pc
+Z:Q1XbjUZ9jFg4L8aOxqm28rsQjnzVw=
+R:libmosquittopp.pc
+Z:Q1EkfEHRNQsOA69POedNnCpv6VRwQ=
+
+C:Q14cyF+N3sGDksGjfwbYfZqPg01AM=
+P:cjson
+V:1.7.14-r1
+A:armv7
+S:10206
+I:32768
+T:Lighweight JSON parser in C
+U:https://github.com/DaveGamble/cJSON
+L:MIT
+o:cjson
+t:1617574531
+c:4c90226e6797660494cb8dfd54e04193b0492545
+D:so:libc.musl-armv7.so.1
+p:so:libcjson.so.1=1.7.14
+F:usr
+F:usr/lib
+R:libcjson.so.1
+a:0:0:777
+Z:Q1ulRxuNy+xSlgiT3qYYD6B03EjNQ=
+R:libcjson.so.1.7.14
+a:0:0:755
+Z:Q1qKjxPrASBS+Qku/+wyZm7QVZohg=
+
+C:Q106Z81StagfMNyl1VXuEctPym5OU=
+P:mosquitto-clients
+V:2.0.11-r0
+A:armv7
+S:39314
+I:98304
+T:Mosquitto command line MQTT clients
+U:https://mosquitto.org/
+L:EPL-1.0
+o:mosquitto
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1623269094
+c:bace8c5bc774203145b3377ae5738ac1dc1216fc
+D:so:libc.musl-armv7.so.1 so:libcjson.so.1 so:libmosquitto.so.1
+p:cmd:mosquitto_pub cmd:mosquitto_sub
+r:mosquitto-utils
+F:usr
+F:usr/bin
+R:mosquitto_pub
+a:0:0:755
+Z:Q1nfLN8y0PI6FwtwKiv9/Ub3M1F7E=
+R:mosquitto_sub
+a:0:0:755
+Z:Q17zbK8yHGjBbsvlBZ4hmGfjl13mY=
+
