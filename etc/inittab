@@ -1,5 +1,6 @@
 # /etc/inittab
 
+ttySTM0::askfirst:/bin/sh
 ::sysinit:/sbin/openrc sysinit
 ::sysinit:/sbin/openrc boot
 ::wait:/sbin/openrc default
