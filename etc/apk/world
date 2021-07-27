@@ -1,6 +1,7 @@
 alpine-baselayout
 alpine-keys
 apk-tools
+boost1.75-dev
 boost1.75-filesystem
 boost1.75-log
 boost1.75-log_setup
