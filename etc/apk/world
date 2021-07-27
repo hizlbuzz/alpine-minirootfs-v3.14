@@ -13,3 +13,4 @@ libc-utils
 mosquitto-clients
 mosquitto-dev
 openrc
+openssl-dev
