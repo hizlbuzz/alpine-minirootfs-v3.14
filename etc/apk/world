@@ -8,7 +8,17 @@ boost1.75-log_setup
 boost1.75-program_options
 boost1.75-system
 boost1.75-thread
+build-base
 busybox
+c-ares
+c-ares-dev
+c-ares-static
+icu
+icu-dev
+icu-doc
+icu-libs
+icu-static
+libc-dev
 libc-utils
 mosquitto-clients
 mosquitto-dev
